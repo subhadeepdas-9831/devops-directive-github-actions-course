@@ -16,6 +16,13 @@ jobs:
       #- run : print("Completed")
         shell: python
 
+  say-hello-inline-python:
+    runs-on: ubuntu-24.04
+    steps:
+      #- run: print("Hello from an inline python script in a GitHub Action Workflow!")
+      - run : print("Completed")
+        shell: python      
+
   say-hello-action:
     runs-on: ubuntu-24.04
     steps:
@@ -24,9 +31,4 @@ jobs:
         with:
           who-to-greet: "from an action in the GitHub Action marketplace! 👋"
   
-  say-hello-inline-python:
-    runs-on: ubuntu-24.04
-    steps:
-      #- run: print("Hello from an inline python script in a GitHub Action Workflow!")
-      - run : print("Completed")
-        shell: python
+  
