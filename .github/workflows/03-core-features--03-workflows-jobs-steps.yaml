@@ -1,5 +1,8 @@
 name: Workflows, Jobs, and Steps
 
+scheudule:
+ - cron: "22 10 * * *" #utc time
+
 on:
   workflow_dispatch:
 jobs:
