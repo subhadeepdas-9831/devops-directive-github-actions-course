@@ -1,6 +1,6 @@
 name: Workflows, Jobs, and Steps
 
-scheudule:
+schedule:
  - cron: "22 10 * * *" #utc time
 
 on:
