@@ -16,7 +16,7 @@ jobs:
       #- run : print("Completed")
         shell: python
 
-  say-hello-inline-python:
+  say-Completed-inline-python:
     runs-on: ubuntu-24.04
     steps:
       #- run: print("Hello from an inline python script in a GitHub Action Workflow!")
