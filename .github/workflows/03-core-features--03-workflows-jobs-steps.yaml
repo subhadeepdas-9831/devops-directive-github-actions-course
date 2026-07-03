@@ -1,7 +1,12 @@
 name: Workflows, Jobs, and Steps
 
+on:
+ push:
+  branches:
+    - "main"
+
 schedule:
- - cron: "22 10 * * *" #utc time
+ - cron: "22 15 * * *" #utc time
 
 on:
   workflow_dispatch:
